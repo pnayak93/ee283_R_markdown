@@ -24,9 +24,3 @@ Q: What happens if you remove the semicolon (';') from the second to last line o
 
 A: When we remove the semicolon from the second to last line, python prints the object type and memory allocation space.
 
-## Homework Website:
-
-[Website Link](https://pnayak93.github.io/ee283/)
-
-
-
