@@ -1,0 +1,42 @@
+---
+title: "pavan_week2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(reticulate)
+use_python("C:/Users/Pavan Nayak/Anaconda3/python.exe")
+```
+
+## R Markdown
+
+```{r}
+library(nycflights13)
+data(flights)
+head(flights)
+```
+
+```{python}
+import os
+os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/Pavan Nayak/Anaconda3/Library/plugins/platforms'
+import pandas
+print(type(r.flights))
+print(r.flights)
+```
+```{r}
+data(mtcars)
+```
+
+```{python}
+print(r.mtcars.head())
+```
+
+```{python}
+import seaborn as sns
+import matplotlib.pyplot as plt
+g = sns.FacetGrid(r.mtcars, col="cyl")
+g.map(sns.scatterplot,"wt","mpg");
+plt.show()
+#When we remove the semicolon from the second to last line, python prints the object type and memory allocation space.
+```
