@@ -1,6 +1,6 @@
 # ee283_R_markdown
 
-##Answers to Week2 Lab Questions:
+## Answers to Week2 Lab Questions:
 
 Hint Questions:
 *In this block, you'll want to state that you are using reticulate. Some of you may need to also tell the system where your Python executable is:
@@ -19,7 +19,7 @@ Level Up Question:
 Q: What happens if you remove the semicolon (';') from the second to last line of the last code block?
 A: When we remove the semicolon from the second to last line, python prints the object type and memory allocation space.
 
-##Homework Website:
+## Homework Website:
 
 [Website Link](https://pnayak93.github.io/ee283/)
 
